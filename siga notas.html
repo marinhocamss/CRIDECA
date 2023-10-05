@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+
+
+<title>Portal - P&aacute;gina de CridECA</title>
+
+<link type="text/css" rel="stylesheet" href="http://gnosys.ufrj.br/static/css/portal-aluno/gnosys.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://gnosys.ufrj.br/static/css/portal-aluno/gnosysRichfaces.css" />
+<link type="text/css" rel="stylesheet" href="http://gnosys.ufrj.br/static/css/portal-aluno/gnosysComponentes.css" />
+<link type="text/css" rel="stylesheet" href="http://gnosys.ufrj.br/static/css/portal-aluno/wiki.css" />
+<link type="text/css" rel="stylesheet" href="http://gnosys.ufrj.br/static/css/portal-aluno/tour.css" />
+
+<link type="text/css" rel="stylesheet" href="http://gnosys.ufrj.br/static/css/portal-aluno/plugins/jquery.impromptu-5.2.4.min.css" />
+<link type="text/css" rel="stylesheet" href="http://gnosys.ufrj.br/static/css/portal-aluno/plugins/jquery-ui-tooltip-1.11.1.css" />
+	<link type="text/css" rel="stylesheet" href="http://gnosys.ufrj.br/static/css/portal-aluno/gnosysPrint.css" media="print" />
+    <link type="text/css" rel="stylesheet" href="/Portal/css/portal.css" />
+
+
+
+
+
+<script async="true" src="https://www.google.com/recaptcha/api.js?hl=pt-BR"></script>
+
+<script type="application/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19284932-1']);
+      _gaq.push(['_setDomainName', 'ufrj.br']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'application/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+	<!-- Nenhum JS extra definido -->
+
+</head>
+
+<body><div id="gnosys-wrapper">
+    <header id="gnosys-header">
+    <div class="gnosys-strict"><a id="gnosys-titulo" name="gnosys-titulo" href="/Portal">
+          <h1>Portal CridECA-UFRJ</h1></a><div id="gnosys-login"></div>
+    </div>
+
+    </header>
+
+    <nav id="gnosys-menu">
+    <div class="gnosys-strict"><div id="menuAluno"></div><div id="menuProfessor"></div>
+    </div>
+    </nav>
+
+    <div class="gnosys-separator"></div><div id="gnosys-content"><div id="gnosys-help-icon"></div><div id="gnosys-tour-icon"></div>
+
+			<div class="gnosys-strict">
+				<h2 id="gnosys-titulo-pagina">P&aacute;gina de envio de notas
+				</h2>
+
+				<div class="gnosys-separator"></div>
+<form id="login-form-intermediario" name="login-form-intermediario" method="post" action="/Portal/login-erro" class="portal-form" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="login-form-intermediario" value="login-form-intermediario" />
+<div id="login-intermediario" class="gnosys-bloco ">
+			<h3 id="" class="gnosys-titulo gnosys-bloco-titulo ">
+				Lançamento de Notas
+			</h3><div id="login-intermediarioConteudo" class="gnosys-bloco-conteudo"></ul><div id="inputUsername-intermediarioDecorate" class="gnosys-campo gnosys-campo-edicao  "><label id="lbl_inputUsername-intermediario" for="inputUsername-intermediario" class="gnosys-campo-label gnosys-campo-requerido ">
+Aluno</label><input id="nome_aluno" type="text" name="inputUsername-intermediario" class="gnosys-input gnosys-mascara-identificacaoUFRJ" maxlength="255" title="Informe a identifica&ccedil;&atilde;o UFRJ" />
+
+        <div class="gnosys-campo-area-icones"></div></div><div id="inputPassword-intermediarioDecorate" class="gnosys-campo gnosys-campo-edicao  "><label id="lbl_inputPassword-intermediario" for="inputPassword-intermediario" class="gnosys-campo-label gnosys-campo-requerido ">
+Prova 1</label><input id="nota1" type="number" name="inputUsername-intermediario" autocomplete="off" value="" maxlength="255" title="Informe a senha" class="gnosys-input gnosys-secret " />
+
+<div class="gnosys-campo-area-icones"></div></div><div id="inputPassword-intermediarioDecorate" class="gnosys-campo gnosys-campo-edicao  "><label id="lbl_inputPassword-intermediario" for="inputPassword-intermediario" class="gnosys-campo-label gnosys-campo-requerido ">
+  Prova 2</label><input id="nota2" type="number" name="inputUsername-intermediario" autocomplete="off" value="" maxlength="255" title="Informe a senha" class="gnosys-input gnosys-secret " />
+
+  <div class="gnosys-campo-area-icones"></div></div><div id="inputPassword-intermediarioDecorate" class="gnosys-campo gnosys-campo-edicao  "><label id="lbl_inputPassword-intermediario" for="inputPassword-intermediario" class="gnosys-campo-label gnosys-campo-requerido ">
+    Quantidade de tarefas</label><input id="qtarefas" type="number" name="inputUsername-intermediario" autocomplete="off" value="" maxlength="255" title="Informe a senha" class="gnosys-input gnosys-secret " />
+  
+    <script type="text/javascript">
+
+      function media(){
+       var nota1 = parseFloat(document.getElementById("nota1").value);
+       var nota2 = parseFloat(document.getElementById("nota2").value);
+  
+       var media = (nota1 + nota2)/2 ; 
+  
+      }
+   </script>
+        <div class="gnosys-campo-area-icones"></div></div> <button class="gnosys-botao" onclick="media()">Calcular Media </button></div></div>
+</form>
+			</div></div></div>
+
+  <div class="gnosys-separator"></div><div id="gnosys-footer">
+    <div class="gnosys-strict">
+      
+      <p class="gnosys-footer-informacoes smaller">
+        system_name_noAbrev <br />
+      </p>
+    </div></div>
+</body>
+</html>
